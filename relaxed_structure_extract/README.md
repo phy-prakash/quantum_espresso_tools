@@ -52,5 +52,3 @@ MIT License (see `LICENSE` for details).
 
 ## Author
 Prakash G
-
-Your Name
