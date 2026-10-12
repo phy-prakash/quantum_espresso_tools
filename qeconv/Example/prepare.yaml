@@ -1,0 +1,420 @@
+{
+  "action": "prepare",
+  "created_at_utc": "2026-10-11T12:08:45+00:00",
+  "status": "complete",
+  "source_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence",
+  "input_pattern": "*.in",
+  "input_files_found": [
+    "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/pbte_conv.in"
+  ],
+  "pseudo_source": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/pseudo",
+  "pseudo_files_found": [
+    "Pb.pbe-dn-kjpaw_psl.0.2.2.UPF",
+    "Te_pbe_v1.uspp.F.UPF"
+  ],
+  "run_script_source": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/run_qe.sh",
+  "convergence_root": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence",
+  "case_count": 25,
+  "cases": [
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k2x2x2/conv_001_wfc30_rho120",
+      "job_name": "conv_001_wfc30_rho120",
+      "ecutwfc_Ry": 30,
+      "ecutrho_Ry": 120,
+      "kpoints": [
+        2,
+        2,
+        2
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k2x2x2/conv_001_wfc30_rho120/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k2x2x2/conv_001_wfc30_rho120/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k2x2x2/conv_001_wfc30_rho120/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k2x2x2/conv_002_wfc40_rho160",
+      "job_name": "conv_002_wfc40_rho160",
+      "ecutwfc_Ry": 40,
+      "ecutrho_Ry": 160,
+      "kpoints": [
+        2,
+        2,
+        2
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k2x2x2/conv_002_wfc40_rho160/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k2x2x2/conv_002_wfc40_rho160/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k2x2x2/conv_002_wfc40_rho160/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k2x2x2/conv_003_wfc50_rho200",
+      "job_name": "conv_003_wfc50_rho200",
+      "ecutwfc_Ry": 50,
+      "ecutrho_Ry": 200,
+      "kpoints": [
+        2,
+        2,
+        2
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k2x2x2/conv_003_wfc50_rho200/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k2x2x2/conv_003_wfc50_rho200/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k2x2x2/conv_003_wfc50_rho200/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k2x2x2/conv_004_wfc60_rho240",
+      "job_name": "conv_004_wfc60_rho240",
+      "ecutwfc_Ry": 60,
+      "ecutrho_Ry": 240,
+      "kpoints": [
+        2,
+        2,
+        2
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k2x2x2/conv_004_wfc60_rho240/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k2x2x2/conv_004_wfc60_rho240/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k2x2x2/conv_004_wfc60_rho240/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k2x2x2/conv_005_wfc70_rho280",
+      "job_name": "conv_005_wfc70_rho280",
+      "ecutwfc_Ry": 70,
+      "ecutrho_Ry": 280,
+      "kpoints": [
+        2,
+        2,
+        2
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k2x2x2/conv_005_wfc70_rho280/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k2x2x2/conv_005_wfc70_rho280/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k2x2x2/conv_005_wfc70_rho280/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k4x4x4/conv_006_wfc30_rho120",
+      "job_name": "conv_006_wfc30_rho120",
+      "ecutwfc_Ry": 30,
+      "ecutrho_Ry": 120,
+      "kpoints": [
+        4,
+        4,
+        4
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k4x4x4/conv_006_wfc30_rho120/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k4x4x4/conv_006_wfc30_rho120/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k4x4x4/conv_006_wfc30_rho120/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k4x4x4/conv_007_wfc40_rho160",
+      "job_name": "conv_007_wfc40_rho160",
+      "ecutwfc_Ry": 40,
+      "ecutrho_Ry": 160,
+      "kpoints": [
+        4,
+        4,
+        4
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k4x4x4/conv_007_wfc40_rho160/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k4x4x4/conv_007_wfc40_rho160/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k4x4x4/conv_007_wfc40_rho160/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k4x4x4/conv_008_wfc50_rho200",
+      "job_name": "conv_008_wfc50_rho200",
+      "ecutwfc_Ry": 50,
+      "ecutrho_Ry": 200,
+      "kpoints": [
+        4,
+        4,
+        4
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k4x4x4/conv_008_wfc50_rho200/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k4x4x4/conv_008_wfc50_rho200/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k4x4x4/conv_008_wfc50_rho200/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k4x4x4/conv_009_wfc60_rho240",
+      "job_name": "conv_009_wfc60_rho240",
+      "ecutwfc_Ry": 60,
+      "ecutrho_Ry": 240,
+      "kpoints": [
+        4,
+        4,
+        4
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k4x4x4/conv_009_wfc60_rho240/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k4x4x4/conv_009_wfc60_rho240/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k4x4x4/conv_009_wfc60_rho240/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k4x4x4/conv_010_wfc70_rho280",
+      "job_name": "conv_010_wfc70_rho280",
+      "ecutwfc_Ry": 70,
+      "ecutrho_Ry": 280,
+      "kpoints": [
+        4,
+        4,
+        4
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k4x4x4/conv_010_wfc70_rho280/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k4x4x4/conv_010_wfc70_rho280/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k4x4x4/conv_010_wfc70_rho280/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k6x6x6/conv_011_wfc30_rho120",
+      "job_name": "conv_011_wfc30_rho120",
+      "ecutwfc_Ry": 30,
+      "ecutrho_Ry": 120,
+      "kpoints": [
+        6,
+        6,
+        6
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k6x6x6/conv_011_wfc30_rho120/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k6x6x6/conv_011_wfc30_rho120/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k6x6x6/conv_011_wfc30_rho120/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k6x6x6/conv_012_wfc40_rho160",
+      "job_name": "conv_012_wfc40_rho160",
+      "ecutwfc_Ry": 40,
+      "ecutrho_Ry": 160,
+      "kpoints": [
+        6,
+        6,
+        6
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k6x6x6/conv_012_wfc40_rho160/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k6x6x6/conv_012_wfc40_rho160/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k6x6x6/conv_012_wfc40_rho160/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k6x6x6/conv_013_wfc50_rho200",
+      "job_name": "conv_013_wfc50_rho200",
+      "ecutwfc_Ry": 50,
+      "ecutrho_Ry": 200,
+      "kpoints": [
+        6,
+        6,
+        6
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k6x6x6/conv_013_wfc50_rho200/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k6x6x6/conv_013_wfc50_rho200/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k6x6x6/conv_013_wfc50_rho200/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k6x6x6/conv_014_wfc60_rho240",
+      "job_name": "conv_014_wfc60_rho240",
+      "ecutwfc_Ry": 60,
+      "ecutrho_Ry": 240,
+      "kpoints": [
+        6,
+        6,
+        6
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k6x6x6/conv_014_wfc60_rho240/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k6x6x6/conv_014_wfc60_rho240/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k6x6x6/conv_014_wfc60_rho240/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k6x6x6/conv_015_wfc70_rho280",
+      "job_name": "conv_015_wfc70_rho280",
+      "ecutwfc_Ry": 70,
+      "ecutrho_Ry": 280,
+      "kpoints": [
+        6,
+        6,
+        6
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k6x6x6/conv_015_wfc70_rho280/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k6x6x6/conv_015_wfc70_rho280/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k6x6x6/conv_015_wfc70_rho280/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k8x8x8/conv_016_wfc30_rho120",
+      "job_name": "conv_016_wfc30_rho120",
+      "ecutwfc_Ry": 30,
+      "ecutrho_Ry": 120,
+      "kpoints": [
+        8,
+        8,
+        8
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k8x8x8/conv_016_wfc30_rho120/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k8x8x8/conv_016_wfc30_rho120/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k8x8x8/conv_016_wfc30_rho120/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k8x8x8/conv_017_wfc40_rho160",
+      "job_name": "conv_017_wfc40_rho160",
+      "ecutwfc_Ry": 40,
+      "ecutrho_Ry": 160,
+      "kpoints": [
+        8,
+        8,
+        8
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k8x8x8/conv_017_wfc40_rho160/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k8x8x8/conv_017_wfc40_rho160/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k8x8x8/conv_017_wfc40_rho160/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k8x8x8/conv_018_wfc50_rho200",
+      "job_name": "conv_018_wfc50_rho200",
+      "ecutwfc_Ry": 50,
+      "ecutrho_Ry": 200,
+      "kpoints": [
+        8,
+        8,
+        8
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k8x8x8/conv_018_wfc50_rho200/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k8x8x8/conv_018_wfc50_rho200/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k8x8x8/conv_018_wfc50_rho200/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k8x8x8/conv_019_wfc60_rho240",
+      "job_name": "conv_019_wfc60_rho240",
+      "ecutwfc_Ry": 60,
+      "ecutrho_Ry": 240,
+      "kpoints": [
+        8,
+        8,
+        8
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k8x8x8/conv_019_wfc60_rho240/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k8x8x8/conv_019_wfc60_rho240/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k8x8x8/conv_019_wfc60_rho240/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k8x8x8/conv_020_wfc70_rho280",
+      "job_name": "conv_020_wfc70_rho280",
+      "ecutwfc_Ry": 70,
+      "ecutrho_Ry": 280,
+      "kpoints": [
+        8,
+        8,
+        8
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k8x8x8/conv_020_wfc70_rho280/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k8x8x8/conv_020_wfc70_rho280/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k8x8x8/conv_020_wfc70_rho280/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k10x10x10/conv_021_wfc30_rho120",
+      "job_name": "conv_021_wfc30_rho120",
+      "ecutwfc_Ry": 30,
+      "ecutrho_Ry": 120,
+      "kpoints": [
+        10,
+        10,
+        10
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k10x10x10/conv_021_wfc30_rho120/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k10x10x10/conv_021_wfc30_rho120/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k10x10x10/conv_021_wfc30_rho120/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k10x10x10/conv_022_wfc40_rho160",
+      "job_name": "conv_022_wfc40_rho160",
+      "ecutwfc_Ry": 40,
+      "ecutrho_Ry": 160,
+      "kpoints": [
+        10,
+        10,
+        10
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k10x10x10/conv_022_wfc40_rho160/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k10x10x10/conv_022_wfc40_rho160/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k10x10x10/conv_022_wfc40_rho160/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k10x10x10/conv_023_wfc50_rho200",
+      "job_name": "conv_023_wfc50_rho200",
+      "ecutwfc_Ry": 50,
+      "ecutrho_Ry": 200,
+      "kpoints": [
+        10,
+        10,
+        10
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k10x10x10/conv_023_wfc50_rho200/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k10x10x10/conv_023_wfc50_rho200/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k10x10x10/conv_023_wfc50_rho200/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k10x10x10/conv_024_wfc60_rho240",
+      "job_name": "conv_024_wfc60_rho240",
+      "ecutwfc_Ry": 60,
+      "ecutrho_Ry": 240,
+      "kpoints": [
+        10,
+        10,
+        10
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k10x10x10/conv_024_wfc60_rho240/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k10x10x10/conv_024_wfc60_rho240/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k10x10x10/conv_024_wfc60_rho240/pseudo"
+    },
+    {
+      "directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k10x10x10/conv_025_wfc70_rho280",
+      "job_name": "conv_025_wfc70_rho280",
+      "ecutwfc_Ry": 70,
+      "ecutrho_Ry": 280,
+      "kpoints": [
+        10,
+        10,
+        10
+      ],
+      "input_files": [
+        "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k10x10x10/conv_025_wfc70_rho280/pbte_conv.in"
+      ],
+      "run_script": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k10x10x10/conv_025_wfc70_rho280/run_qe.sh",
+      "pseudo_directory": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence/k10x10x10/conv_025_wfc70_rho280/pseudo"
+    }
+  ]
+}
