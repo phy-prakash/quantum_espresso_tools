@@ -126,8 +126,8 @@ def set_job_name(text: str, name: str) -> str:
 
 
 def set_qe_filenames(text: str, input_name: str) -> str:
-    """Point pw.x at the case input and its corresponding output file."""
-    output_name = Path(input_name).with_suffix(".out").name
+    """Point pw.x at the case input and the common output filename."""
+    output_name = "supercell.out"
     updated = []
     for line in text.splitlines():
         if re.search(r"\bpw\.x\b", line):
