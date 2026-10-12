@@ -147,7 +147,8 @@ def prepare(root: Path, unitcell: Path, run_script: Path, pseudo: Path, output: 
     for path in (unitcell, run_script, pseudo):
         if not path.exists():
             raise FileNotFoundError(f"Required path not found: {path}")
-    inputs = sorted(root.glob("supercell-*.in"))
+    source_archive = root / "source_in_files"
+    inputs = sorted(set(root.glob("supercell-*.in")) | set(source_archive.glob("supercell-*.in")))
     if not inputs:
         raise FileNotFoundError(f"No supercell-*.in files found in {root}")
     template = unitcell.read_text(encoding="utf-8")
@@ -169,8 +170,12 @@ def prepare(root: Path, unitcell: Path, run_script: Path, pseudo: Path, output: 
         script = set_job_name(script, name)
         (folder / run_script.name).write_text(script, encoding="utf-8")
         jobs.append({"directory": str(folder.relative_to(root)), "input": inp_name, "job_name": name})
+        if source.parent != source_archive:
+            source_archive.mkdir(parents=True, exist_ok=True)
+            shutil.move(str(source), str(source_archive / source.name))
     report = {"created_at_utc": datetime.now(timezone.utc).isoformat(), "unitcell_input": str(unitcell),
-              "source_files": [p.name for p in inputs], "output_directory": str(output), "jobs": jobs}
+              "source_files": [p.name for p in inputs], "source_archive": str(source_archive),
+              "output_directory": str(output), "jobs": jobs}
     write_yaml(root / "prepare.yaml", report)
     print(f"Prepared {len(jobs)} displaced calculations in {output}; summary: {root / 'prepare.yaml'}")
 
