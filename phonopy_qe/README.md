@@ -2,7 +2,7 @@
 
 ## Phonopy force calculations
 
-`phonopy_qe.py` prepares QE inputs from phonopy's `supercell-NNN.in` files.
+phonopy_qe.py` prepares QE inputs from phonopy's `supercell-NNN.in` files.
 Run it in the directory containing those files, `pseudo/`, and `run_qe.sh`:
 
 ```sh
@@ -17,4 +17,6 @@ the batch job name. Each `pw.x` command reads `supercell-NNN.in` and redirects
 to `supercell.out` inside that case directory. `prepare.yaml` records the generated cases. The submit
 command uses `sbatch` or `qsub` based on the directives in each batch script
 (`PBS_NODEFILE` also identifies a PBS script) and records responses and job IDs in `submit.yaml`. The interactive menu is
-available with `python phonopy_qe.py`.
+available with `python phonopy_qe.py`. After each case is prepared, its source
+`supercell-NNN.in` is moved into `source_in_files/`; subsequent prepare runs
+can read the archived source inputs there.
