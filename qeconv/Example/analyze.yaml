@@ -2,7 +2,7 @@
   "action": "analyse",
   "created_at_utc": "2026-10-11T13:54:40+00:00",
   "status": "complete",
-  "convergence_root": "/mnt/data/prakash-archive/collaboration_works/dr_rajkamal/DFTkit/ppy/qe/b_PbTe/b-convergence",
+  "convergence_root": "./b-convergence",
   "directories_analysed": [
     "k10x10x10/conv_021_wfc30_rho120",
     "k10x10x10/conv_022_wfc40_rho160",
