@@ -103,3 +103,5 @@ Use `python qeconv.py --help` for all command-line options.
 - `submit.yaml` records scheduler, job ID (when returned by the scheduler), status, and response for each case.
 
 QE total energies are read from output files ending in `.out` or `.log` using the standard `! total energy = ... Ry` line. The last matching energy in each case is used.
+
+![Convergence Plot](qeconv/Example/convergence.png)
